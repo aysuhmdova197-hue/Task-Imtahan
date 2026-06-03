@@ -1,0 +1,38 @@
+﻿@model List<Chef>
+
+<main>
+    <div class="Container" style="margin-left:250px">
+        <a asp-action="Create" class="btn btn-success">Create</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Job</th>
+                    <th scope="col">Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/assets/images/@item.Image" width="80px" height="80px" />
+                        </td>
+                        <td>@item.Name</td>
+                        <td>@item.Job</td>
+                        <td>
+                            <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                            <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-info">Detail</a>
+                            <form methods="post">
+                                <button asp-action="Delete"asp-route-id="@item.Id"type="submit"class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+    </div>
+</main>

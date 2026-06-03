@@ -1,0 +1,17 @@
+﻿@model Chef
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<main>
+    <div class="Container" style="margin-left:250px">
+        <div class="card" style="width: 18rem;">
+  <img src="~/assets/images/@Model.Image" class="card-img-top" alt="...">
+  <div class="card-body">
+      <h5 class="card-title">@Model.Name</h5>
+      <p class="card-text">@Model.Job</p>
+      <a asp-action="Index" class="btn btn-primary">Go back</a>
+   </div>
+</div>
+    </div>
+</main>
