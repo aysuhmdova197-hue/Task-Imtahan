@@ -1,11 +1,12 @@
 ﻿using Folder14.Data;
 using Folder14.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 namespace Folder14.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class AboutController : Controller
     {
         private readonly AppDbContext _context;

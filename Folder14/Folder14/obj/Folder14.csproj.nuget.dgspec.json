@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aysu\\OneDrive\\Desktop\\folder\\Folder14\\Folder14\\Folder14.csproj": {}
+    "C:\\Users\\Aysu\\OneDrive\\Desktop\\Task-Imtahan\\Folder14\\Folder14\\Folder14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aysu\\OneDrive\\Desktop\\folder\\Folder14\\Folder14\\Folder14.csproj": {
+    "C:\\Users\\Aysu\\OneDrive\\Desktop\\Task-Imtahan\\Folder14\\Folder14\\Folder14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aysu\\OneDrive\\Desktop\\folder\\Folder14\\Folder14\\Folder14.csproj",
+        "projectUniqueName": "C:\\Users\\Aysu\\OneDrive\\Desktop\\Task-Imtahan\\Folder14\\Folder14\\Folder14.csproj",
         "projectName": "Folder14",
-        "projectPath": "C:\\Users\\Aysu\\OneDrive\\Desktop\\folder\\Folder14\\Folder14\\Folder14.csproj",
+        "projectPath": "C:\\Users\\Aysu\\OneDrive\\Desktop\\Task-Imtahan\\Folder14\\Folder14\\Folder14.csproj",
         "packagesPath": "C:\\Users\\Aysu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aysu\\OneDrive\\Desktop\\folder\\Folder14\\Folder14\\obj\\",
+        "outputPath": "C:\\Users\\Aysu\\OneDrive\\Desktop\\Task-Imtahan\\Folder14\\Folder14\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
